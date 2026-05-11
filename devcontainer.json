@@ -1,0 +1,15 @@
+{
+  "name": "Assignment (C++ & Python)",
+  "image": "mcr.microsoft.com/devcontainers/cpp:0-debian-11",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-python.python",
+        "ms-python.vscode-pylint"
+      ]
+    }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y python3-pip && chmod +x build.sh"
+}
