@@ -1,7 +1,0 @@
-{
-    "python.testing.pytestEnabled": true,
-    "python.testing.unittestEnabled": false,
-    "python.testing.nosetestsEnabled": false,
-    "python.testing.autoTestDiscoverOnSaveEnabled": true
-    "chat.disableAIFeatures": true
-}
